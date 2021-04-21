@@ -1,0 +1,84 @@
+body {
+    background-color: deepskyblue;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 300%;
+}
+
+    h1 span {
+        box-shadow: black -10px 15px;
+        text-decoration: underline;
+        background-color: mediumpurple;
+    }
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+div[class^="box"] {
+    width: 25vw;
+    height: 500px;
+}
+
+    div[class^="box"]:hover {
+        transform: scale(1.1);
+    }
+
+.box-1 {
+    background-color: mediumpurple;
+}
+
+    .box-1:hover {
+        background-color: blueviolet;
+    }
+
+    .box-1 div {
+        background-color: rgba(0, 0, 0, .25);
+        display: flex;
+        justify-content: center;
+        display: block;
+    }
+
+        .box-1 div a {
+            text-decoration: none;
+            margin: 25px;
+            padding: 20px;
+            text-align: center;
+            background-color: white;
+            border-radius: 20px;
+            display: block;
+        }
+
+div[class^="box"] img {
+    padding: 5%;
+    height: 90%;
+    width: 90%;
+}
+
+.box-2 {
+    background-color: pink;
+}
+
+    .box-2:hover {
+        background-color: hotpink;
+    }
+
+.box-3 {
+    background-color: mediumpurple;
+}
+
+    .box-3:hover {
+        background-color: darkviolet;
+    }
+
+.box-4 {
+    background-color: pink;
+}
+
+    .box-4:hover {
+        background-color: hotpink;
+    }
