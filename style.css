@@ -1,5 +1,5 @@
 body {
-    background-color: lightslategrey;
+    background-color: black;
     color: white;
 }
 
@@ -34,11 +34,11 @@ div[class^="box"] {
     }
 
 .box-1 {
-    background-color: mediumpurple;
+    background-color: crimson;
 }
 
     .box-1:hover {
-        background-color: blueviolet;
+        background-color: red;
     }
 
     .box-1 div {
@@ -65,25 +65,25 @@ div[class^="box"] img {
 }
 
 .box-2 {
-    background-color: pink;
+    background-color: darkgrey;
 }
 
     .box-2:hover {
-        background-color: hotpink;
+        background-color: grey;
     }
 
 .box-3 {
-    background-color: mediumpurple;
+    background-color: grey;
 }
 
     .box-3:hover {
-        background-color: darkviolet;
+        background-color: darkgrey;
     }
 
 .box-4 {
-    background-color: pink;
+    background-color: darkgrey;
 }
 
     .box-4:hover {
-        background-color: hotpink;
+        background-color: gray;
     }
