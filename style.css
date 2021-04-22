@@ -26,6 +26,7 @@ h6 {
 div[class^="box"] {
     width: 25vw;
     height: 500px;
+    padding: 20px;
 }
 
     div[class^="box"]:hover {
