@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: darkgrey;
     color: white;
 }
 
@@ -68,7 +68,7 @@ div[class^="box"] img {
 }
 
 .box-2 {
-    background-color: darkgrey;
+    background-color: lightgrey;
 }
 
     .box-2:hover {
@@ -80,13 +80,13 @@ div[class^="box"] img {
 }
 
     .box-3:hover {
-        background-color: darkgrey;
+        background-color: lightgrey;
     }
 
 .box-4 {
-    background-color: darkgrey;
+    background-color: lightgrey;
 }
 
     .box-4:hover {
-        background-color: gray;
+        background-color: grey;
     }
